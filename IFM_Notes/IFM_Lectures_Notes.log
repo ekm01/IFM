@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2023.1.30)  2 FEB 2023 20:41
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2023.1.30)  3 FEB 2023 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -157,24 +157,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-Overfull \hbox (78.46674pt too wide) in paragraph at lines 51--53
+Overfull \hbox (78.46674pt too wide) in paragraph at lines 59--61
 \TU/lmr/bx/n/10 Balance sheet equation: \TU/lmr/m/n/10 Two sides must be equal: $[]$ 
  []
 
 File: balancesheet.jpg Graphic file (type bmp)
 <balancesheet.jpg>
 [2]
-Overfull \hbox (88.58615pt too wide) detected at line 97
+Overfull \hbox (88.58615pt too wide) detected at line 105
 []
  []
 
 [3]
-Overfull \hbox (122.86143pt too wide) detected at line 109
+Overfull \hbox (122.86143pt too wide) detected at line 117
 []
  []
 
 
-Overfull \hbox (19.68239pt too wide) detected at line 138
+Overfull \hbox (19.68239pt too wide) detected at line 146
 []
  []
 
@@ -182,113 +182,113 @@ Overfull \hbox (19.68239pt too wide) detected at line 138
 File: incomestatement.jpg Graphic file (type bmp)
 <incomestatement.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 [][]\TU/lmr/bx/n/8 Dilution \TU/lmr/m/n/8 occurs when a company $[]$ that result in
  []
 
 [5]
-Overfull \hbox (80.89273pt too wide) detected at line 280
+Overfull \hbox (80.89273pt too wide) detected at line 288
 []
  []
 
 [6]
-Overfull \hbox (11.84497pt too wide) detected at line 309
+Overfull \hbox (11.84497pt too wide) detected at line 317
 []
  []
 
 [7]
-Overfull \hbox (21.27998pt too wide) detected at line 364
+Overfull \hbox (21.27998pt too wide) detected at line 372
 []
  []
 
 
-Overfull \hbox (20.03795pt too wide) detected at line 371
+Overfull \hbox (20.03795pt too wide) detected at line 379
 []
  []
 
 
-Overfull \hbox (15.29771pt too wide) detected at line 378
+Overfull \hbox (15.29771pt too wide) detected at line 386
 []
  []
 
 
-Overfull \hbox (39.25162pt too wide) detected at line 400
+Overfull \hbox (39.25162pt too wide) detected at line 408
 []
  []
 
 
-Overfull \hbox (101.22008pt too wide) detected at line 407
+Overfull \hbox (101.22008pt too wide) detected at line 415
 []
  []
 
 [8]
-Overfull \hbox (61.36752pt too wide) detected at line 428
+Overfull \hbox (61.36752pt too wide) detected at line 436
 []
  []
 
 
-Overfull \hbox (42.39778pt too wide) detected at line 451
+Overfull \hbox (42.39778pt too wide) detected at line 459
 []
  []
 
 
-Overfull \hbox (2.60994pt too wide) in paragraph at lines 473--474
+Overfull \hbox (2.60994pt too wide) in paragraph at lines 481--482
 []$[]$ \TU/lmr/m/n/10 => equivalent to receiv-
  []
 
 [9]
-Overfull \hbox (108.14082pt too wide) in paragraph at lines 479--480
+Overfull \hbox (108.14082pt too wide) in paragraph at lines 487--488
 \TU/lmr/m/n/10 the NPV rule, but at other times they disagree. $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--499
+Underfull \hbox (badness 10000) in paragraph at lines 504--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 [][]\TU/lmr/bx/n/8 Cost of capital \TU/lmr/m/n/8 is the minimum rate of return or
  []
 
 
-Overfull \hbox (2.14995pt too wide) in paragraph at lines 511--512
+Overfull \hbox (2.14995pt too wide) in paragraph at lines 519--520
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 
  []
 
 [10]
-Overfull \hbox (9.62997pt too wide) in paragraph at lines 539--540
+Overfull \hbox (9.62997pt too wide) in paragraph at lines 547--548
 []\TU/lmr/m/n/10 When you must choose only one project among several possible projects,
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
+Underfull \hbox (badness 10000) in paragraph at lines 591--591
 [][]\TU/lmr/bx/n/8 Time value of money \TU/lmr/m/n/8 means that a sum of money is worth more
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 583--583
+Underfull \hbox (badness 4647) in paragraph at lines 591--591
 \TU/lmr/m/n/8 now than the same sum of money in the future. It can grow only $[]$
  []
 
 
-Overfull \hbox (32.11417pt too wide) detected at line 597
+Overfull \hbox (32.11417pt too wide) detected at line 605
 []
  []
 
 [12] (./IFM_Lectures_Notes.aux) ) 
 Here is how much of TeX's memory you used:
  2338 strings out of 476156
- 35647 string characters out of 5814963
+ 35620 string characters out of 5814963
  337281 words of memory out of 5000000
  23095 multiletter control sequences out of 15000+600000
  475715 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,11n,62p,459b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on IFM_Lectures_Notes.xdv (12 pages, 131008 bytes).
+Output written on IFM_Lectures_Notes.xdv (12 pages, 130796 bytes).
