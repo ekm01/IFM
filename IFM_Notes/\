@@ -697,40 +697,8 @@ With:
 	\end{itemize}
 	\item \textbf{Tax considerations:}
 		\begin{itemize}
-			\item \textbf{Marginal corporate tax rate:} The tax rate on the marginal or incremental dollar of pre-tax income. \textbf{Note:} A negative tax is equal to a tax credit\footnote{\textbf{Tax credit} refers to an amount of money that taxpayers can subtract directly from the taxes they owe.}.
-				\large
-				\begin{equation*}
-				\begin{aligned}
-				\boxed{
-				Income \; tax = EBIT * t_C
-				}
-			\end{aligned}
-				\end{equation*}
-				\normalsize
-			
-			\item \textbf{Note:}
-				\begin{itemize}
-				  \item Taxes paid by the company are lower as interest payment can be deducted from the tax base.
-				  \item However, this \textbf{tax shield effect}\footnote{\textbf{Interest Tax Shield} refers to the tax savings \underline{resulting from the tax-deductibility of the} \underline{interest expense} on debt borrowings.} is taken into account in adjusting the cost of capital.
-				\item Tax shield effect while calculating project's cash flows => there would be double counting 
-				\end{itemize}
+			\item \textbf{Marginal corporate tax rate:} The tax rate on the marginal or incremental dollar of pre-tax income. \textbf{Note:} A negative tax is equal to a tax credit\footnote{\textbf{Tax credit} refers to an amount of money that taxpayers can subtract directly from the taxes they owe. }.
 		\end{itemize}
-\item \textbf{Tax credit:}
-	\begin{itemize}
-	  \item \textbf{Rationale:} Typically, in a new project, EBIT may be negative over the first years.
-	  \item \textbf{Profitable company:}
-		  \begin{itemize}
-		    \item If the project takes place within an overall profitable company, we can calculate with negative tax payments, i.e.\ \underline{company is} \underline{granted a tax credit}.
-		\item \underline{Reason:} The loss in project can be balanced against profits made in other business segments.
-		  \end{itemize}
-	\item \textbf{Non-profitable company:}
-		\begin{itemize}
-			\item If the overall company is not profitable, we have to set-up a tax carryforward\footnote{A \textbf{tax loss carryforward} allows taxpayers to use a taxable loss (total deductions > net gross income) in the current period and apply it to a \underline{future tax period}.} or (if allowed) a carrybackward.
-		\end{itemize}
-	\end{itemize}
-\item \textbf{Opportunity cost:} It is the forgone benefit that would have been derived from an option not chosen.
-
-\item \textbf{Project externalities:} Indirect effects of the project that may affect the profits of other business activities of the firm. \textbf{Cannibalization} is when sales of a new product displaces sales of an existing product.
 \end{itemize}
 
 
