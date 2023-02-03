@@ -223,4 +223,7 @@ INPUT balancesheet.jpg
 INPUT ./incomestatement.jpg
 INPUT ./incomestatement.jpg
 INPUT incomestatement.jpg
+INPUT ./FCFearnings.jpg
+INPUT ./FCFearnings.jpg
+INPUT FCFearnings.jpg
 INPUT IFM_Lectures_Notes.aux

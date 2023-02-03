@@ -313,16 +313,21 @@ subs
 	    \item
 	    \large
 	    \begin{equation*}
-		    \boxed{EBITDA/Interest \; coverage = \frac{\overbrace{EBITDA}^\text{EBIT + Depreciation/Amortization}}{Interest \; expense}}
-	    \end{equation*}
-	    \normalsize
-	  \end{enumerate}
+		    \boxed{EBITDA/Interest \; coverage = \frac{\overbrace{EBITDA}^\text{EBIT + Depreciation/Amortization\footnotemark}}{Interest \; expense}}
+	\end{equation*}
+	  \normalsize
+
+ 
+\end{enumerate}
+
+\footnotetext{\textbf{Amortization} is the method that is used to \underline{decrease the cost of the asset over time},df  while \textbf{depreciation} is the \underline{loss in value of the asset over time} Both of them are methods of calculating the value for business assets over time.}
 
 \item \textbf{Leverage / gearing ratios}
 	\begin{itemize}
 		\item Measures of a firm's reliance on debt as a source of financing
 		\item Leverage ratios can be measured using book or market values!
           	\item Important and common ratios:
+			\pagebreak
 			\begin{enumerate}
 	    			\item
 	    			\large
@@ -622,6 +627,79 @@ With:
 \label{sub:capital_budgeting}
 \textbf{Capital Budgeting:} A planning process used by a firm to determine if major projects or investments are worth the funding of cash capitalization structures (debt, equity or retained earnings)
 
+\subsection{Determining free cash flow (FCF) and NPV} % (fold)
+\label{ssub:determining_free_cash_flow_fCF_and_nPV}
+
+\begin{itemize}
+  \item \textbf{FCF:} It is the cash a company generates after taking into consideration cash outflows that support its operations and maintain its capital assets. Thus, it is firm's extra cash after its operating expenses and other areas.
+
+  \item \textbf{Methods of calculation of free cash flow:}
+	  \begin{itemize}
+	    \item Direct calculation
+	\item Calculation from earnings
+	  \end{itemize}
+
+\item \textbf{Two forms of free cash flow:}
+	\begin{itemize}
+	  \item \textbf{Free cash flow to the firm (FCFF):} FCF available to all providers of a firm's capital, including bondholders, shareholders and common stockholders.
+	  \item \textbf{Free cash flow to the equity (FCFE):} FCF available to a firm's common (equity) stockholders
+	\end{itemize}
+
+\item \textbf{Direct calculation of FCF:}
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+	FCF = \overbrace{(Revenue - Cost - Depreciation) * (1 - t_C)}^\text{Unlevered net income} + Depreciation - CapEx \\
+	- \Delta NWC
+	\end{aligned}
+	}
+	\end{equation*}
+	\normalsize
+
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+	FCF = (Revenue - Cost) * (1 - t_C) -CapEx - \Delta NWC + t_C * Depreciation
+	\end{aligned}
+	}
+	\end{equation*}
+	\\
+	\normalsize
+	With:
+	\begin{itemize}
+		\item FCF = Free cash flow, t\textsubscript{C} = Corporate tax rate, t\textsubscript{C} * Depreciation tax shield, CapEx = Capital expenditures, NWC = Net working capital
+	\end{itemize}
+
+\item \textbf{Calculation of FCF from earnings:}
+	\begin{figure}[h!]
+	  \centering
+	  \includegraphics[width=1.0\linewidth]{FCFearnings.jpg}
+	  \label{fig:fCFearnings_jpg}
+	\end{figure}
+
+\item \textbf{Forecasting earnings:}
+	\begin{itemize}
+	  \item \textbf{Capital budget:} Lists the investments that a company plans to undertake
+	  \item \textbf{Capital budgeting:} Process used to analyze alternate investments and decide which ones to accept => \underline{using NPV to evaluate capital budgeting decisions}
+	  \item \textbf{Incremental earnings:}  Amount by which the firm's earnings are expected to change as a result of the investment decision
+ 
+	\end{itemize}
+\item \textbf{Interest expense:}
+	\begin{itemize}
+		\item In capital budgeting decisions, \textbf{interest expense}\footnote{An \textbf{interest expense} is the cost incurred by an entity for borrowed funds.} is typically not included. Project should be judged on its own, not on how it will be financed.
+			\item \textbf{Note:}
+				\begin{itemize}
+				  \item Interest expense is taken into account in cost of capital, i.e.\ discount rate used for calculating NPV.
+				\item Hence, if we considered interest payments as an expense, there would be a \textbf{double counting}.
+				\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+
+
+% subsubsection determining_free_cash_flow_fCF_and_nPV (end)
 
 
 
