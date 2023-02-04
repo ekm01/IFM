@@ -320,7 +320,7 @@ subs
  
 \end{enumerate}
 
-\footnotetext{\textbf{Amortization} is the method that is used to \underline{decrease the cost of the asset over time},df  while \textbf{depreciation} is the \underline{loss in value of the asset over time} Both of them are methods of calculating the value for business assets over time.}
+\footnotetext{\textbf{Amortization} is the method that is used to \underline{decrease the cost of the asset over time}, while \textbf{depreciation} is the \underline{loss in value of the asset over time}. Both of them are methods of calculating the value for business assets over time.}
 
 \item \textbf{Leverage / gearing ratios}
 	\begin{itemize}
@@ -753,9 +753,110 @@ With:
 	\item average selling price will vary over time
         \item average cost per unit will change over time
 	\end{itemize}
+
+\item \textbf{Capital expenditures and depreciation:}
+	\begin{itemize}
+	  \item \textbf{Capital expenditures:} Actual cash outflows when an asset is purchased -> included in calculating free cash flow
+	  \item \textbf{Depreciation:} Non-cash expense\footnote{\textbf{Non-cash expenses} are business expenses that do not require the expenditure of cash. They do not have an effect on cash flow!} -> free cash flow estimate is adjusted for this non-cash expense
+	\end{itemize}
+
+\item \textbf{Net (operating working capital (NWC):)}
+	\begin{itemize}
+	  \item Most projects will require an investment in NWC.
+		  \large
+		  \begin{equation*}
+		  \boxed{
+		  \begin{aligned}
+		  NWC = Current \; assets - Current \; liabilities
+		  \end{aligned}
+		  }
+		  \end{equation*}
+		  \normalsize
+		  \large
+		  \begin{equation*}
+		  \boxed{
+		  \begin{aligned}
+		  NWC = Cash + Inventory + \underbrace{Receivables - Payables}_\text{Trade credit}
+		  \end{aligned}
+		  }
+		  \end{equation*}
+		  \normalsize
+\item Increase in NWC:
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+	\Delta NWC_t = NWC_t - NWC_{t-1}
+	\end{aligned}
+	}
+	\end{equation*}
+	\normalsize		  
+	\end{itemize}
+
+\item \textbf{Calculation of NPV:}
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+		PV(FCF_t) = \frac{FCF_t}{(1+r)^t} = FCF_t * \frac{1}{(1+r)^t}
+	\end{aligned}
+	}
+	\end{equation*}
+	\normalsize
+	
 \end{itemize}
 
+\subsection{Choosing among alternatives} % (fold)
+\label{sub:choosing_among_alternatives}
+\begin{itemize}
+  \item \textbf{Rules for choosing among alternative projects:}
+	  \begin{itemize}
+	    \item \textbf{Choosing between mutually exclusive investment opportunities:} Pick the opportunity with highest NPV
+    \item \textbf{Choosing between alternatives:} Only include those components of free cash flow that differ among the alternatives.
+	  \end{itemize}
+\end{itemize}
 
+\subsection{Further adjustments to FCF} % (fold)
+\label{sub:further_adjustments_to_fCF}
+\begin{itemize}
+  \item \textbf{Adjustments to FCF:}
+	  \begin{itemize}
+	    \item \textbf{Other non-cash items:} Amortization
+	\item \textbf{Timing of cash flows:} Cash flows are often spread throughout the year
+		\item \textbf{Accelerated depreciation:} Modified accelerated cost recovery system (MACRS) depreciation
+
+		\item \textbf{Liquidation or salvage value:} Include (after-tax) liquidation or salvage value of any assets that are disposed of any depreciation
+		\item \textbf{Terminal or continuation value:} Market value of FCF from the project at all future dates
+		\item \textbf{Tax loss carryforwards or tax carrybacks}
+	  \end{itemize}
+\end{itemize}
+
+\subsection{Risk analysis} % (fold)
+\label{sub:risk_analysis}
+\begin{itemize}
+  \item \textbf{Break-even analysis:} Computes the level of a parameter that makes the project's NPV equal to zero (\textit{break-even point}, where total cost = total revenue)
+\item \textbf{Sensitivity analysis:} Shows how NPV varies with a change in one of the assumptions, holding the other assumptions constant
+\item \textbf{Scenario analysis:} Considers the effect on NPV of simultaneously changing multiple assumptions
+\end{itemize}
+
+\section{Cost of Capital} % (fold)
+\label{sec:cost_of_capital}
+
+
+
+% section cost_of_capital (end)
+% subsection  (end)
+
+
+% subsection risk_analysis (end)
+
+
+
+% subsection further_adjustments_to_fCF (end)
+
+
+
+% subsubsection choosing_among_alternatives (end)
 % subsubsection determining_free_cash_flow_fCF_and_nPV (end)
 
 
