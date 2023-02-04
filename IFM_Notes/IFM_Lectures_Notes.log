@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2023.1.30)  3 FEB 2023 19:33
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2023.1.30)  4 FEB 2023 01:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,7 +299,12 @@ Overfull \hbox (77.90999pt too wide) in paragraph at lines 685--686
 \TU/lmr/m/n/10 and decide which ones to accept => $[]$ 
  []
 
-[14] [15] (./IFM_Lectures_Notes.aux) ) 
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 749--751
+
+ []
+
+[16] (./IFM_Lectures_Notes.aux) ) 
 Here is how much of TeX's memory you used:
  2348 strings out of 476156
  35841 string characters out of 5814963
@@ -309,4 +314,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  55i,16n,62p,459b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on IFM_Lectures_Notes.xdv (15 pages, 168516 bytes).
+Output written on IFM_Lectures_Notes.xdv (16 pages, 179296 bytes).
