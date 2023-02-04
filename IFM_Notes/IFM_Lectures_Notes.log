@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2023.1.30)  4 FEB 2023 14:23
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2023.1.30)  4 FEB 2023 18:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,14 +304,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 749--751
 
  []
 
-[16] [17] (./IFM_Lectures_Notes.aux) ) 
-Here is how much of TeX's memory you used:
- 2352 strings out of 476156
- 35946 string characters out of 5814963
- 338281 words of memory out of 5000000
- 23108 multiletter control sequences out of 15000+600000
- 475715 words of font info for 68 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 55i,16n,62p,459b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 884--887
 
-Output written on IFM_Lectures_Notes.xdv (17 pages, 198252 bytes).
+ []
+
+
+Overfull \hbox (24.94467pt too wide) in paragraph at lines 884--887
+[] 
+ []
+
+[18]
+File: estimatingbeta.jpg Graphic file (type bmp)
+<estimatingbeta.jpg>
+ [19] [20] [21] (./IFM_Lectures_Notes.aux) ) 
+Here is how much of TeX's memory you used:
+ 2386 strings out of 476156
+ 36499 string characters out of 5814963
+ 338281 words of memory out of 5000000
+ 23130 multiletter control sequences out of 15000+600000
+ 478480 words of font info for 78 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 55i,16n,62p,484b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on IFM_Lectures_Notes.xdv (21 pages, 250056 bytes).

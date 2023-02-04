@@ -842,7 +842,162 @@ With:
 \section{Cost of Capital} % (fold)
 \label{sec:cost_of_capital}
 
+\subsection{Equity of cost of capital} % (fold)
+\label{sub:equity_of_cost_of_capital}
+\begin{itemize}
+	\item \textbf{Intuition:} The cost of capital of any investment opportunity (cost of equity) equals the expected return of available investments with same beta\footnote{\textbf{Beta} is a measure of risk calculated as a regression on the company’s stock price.}.
+	\item \textbf{Methods of estimating the equity cost of capital:}
+		\begin{itemize}
+		  \item The Capital Asset Pricing Model (CAPM)
+		\item Dividend discount model
+		\item Bond yield plus risk premium\footnote{A \textbf{risk premium} is a measure of excess return that is required by an individual to compensate being subjected to an increased level of risk.}
+		\end{itemize}
+\item \textbf{CAPM:}
+	\begin{itemize}
+	  \item CAPM states that the expected return on equity equals the sums of the risk-free interest rate and a premium for bearing the market risk.
+	\item CAPM estimate / equation is provided by the security market line (SML) equation:
+		\large
+		\begin{equation*}
+		\boxed{
+		\begin{aligned}
+			r_i = r_f + \underbrace{\beta_i * (E[r_{Mkt}] - r_f)}_\text{Risk premium for security i (RP\textsubscript{Mkt})} 
+		\end{aligned}
+		}
+		\end{equation*}
+		\normalsize
 
+		With: r\textsubscript{i} = Equity cost of capital, r\textsubscript{f} = Risk-free rate,  $\beta_i$  = Return sensitivity of stock i to changes in the market return, E[r\textsubscript{Mkt}] = Expected return on the market, E[r\textsubscript{Mkt}] - r\textsubscript{Mkt} = Expected market risk premium or \textbf{equity risk premium} (ERP) 
+	
+	\item Steps to implement CAPM and to calculate the equity cost of capital \textbf{r\textsubscript{\textbf{i}}}:
+		\begin{itemize}
+			\item[a-)] Construct the market portfolio\footnote{\textbf{Market portfolio} is a \underline{value-weighted portfolio of all the securities} traded in the market. Thus, it is used as a proxy, a market index. \textbf{Market indexes} report the value of a particular portfolio of securities.} and determine its expected excess return \textbf{E[r\textsubscript{Mkt}] - r\textsubscript{Mkt}} of the (value-weighted) market portfolio
+				\begin{itemize}
+				\item \textbf{The fundamental market risk premium:}
+					\begin{enumerate}
+						\item[-] Two drawbacks of using historical data while estimating risk premium
+							\begin{enumerate}
+							  \item large standard errors of estimates
+								  \item backward looking => may not represent current expectations
+	
+							\end{enumerate}
+
+						\item[-] One alternative is to solve for discount rate that is consistent with the current level of index \\ \\
+							\large
+							\boxed{r\textsubscript{Mkt} = \frac{Div\textsubscript{1}}{P\textsubscript{0}} + g = Dividend \; yield + Expected \; yield}			
+					\end{enumerate}
+				\end{itemize}
+				
+			\item[b-)] Estimate the stock's beta $\boldsymbol{\beta_i}$ = sensitivity to the market portfolio
+				\begin{itemize}
+					\item \textbf{Estimating beta from historical returns:}
+						\begin{enumerate}
+							\item[-] Beta measures a security's "sensitivity to market" risk.
+							\item[-] Beta is expected percent change in excess return of security for a 1\% change in excess return of market portfolio
+							\item[-] \textbf{Method 1:} Beta is the slope of the best-fitting in the plot of a security's excess returns vs. market's excess returns -> regression analysis
+							\item[-] \textbf{Method 2:} Beta is calculated as the covariance of a stock with the market divided by the variance of the market:
+								\begin{enumerate}
+									\item Stock beta > 1.0: Stock is riskier than the overall market and has higher expected returns.
+									\item Stock beta < 1.0: Stock is less risky than the overall market and is expected to have lower returns.
+								\end{enumerate}
+						\end{enumerate}
+
+					\item \textbf{Issues in estimating beta from historical returns:}
+						\begin{enumerate}
+							\item[-] Judgement regarding estimation period, appropriate market index, use of a smoothing technique and adjustments for non-public or small company stocks
+							\item[-] \textbf{For non-public companies}, we need to use comparable companies (with similar risk, size, etc.) to estimate beta: 
+		\begin{figure}[h!]
+		  \centering
+		  \includegraphics[width=0.6\linewidth]{estimatingbeta.jpg}
+		  \label{fig:estimatingbeta_jpg}
+		\end{figure}						
+						\end{enumerate}
+				\end{itemize}
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\subsection{Debt of cost of capital} % (fold)
+\label{sub:debt_of_cost_of_capital}
+\begin{itemize}
+  \item \textbf{Definition:} It is the effective interest rate that a company pays on its debts, such as bonds and loans.
+
+\item \textbf{Methods of calculating the debt cost of capital:}
+	\begin{itemize}
+	  \item \textbf{Yield-to-maturity approach:} Debt cost of capital = Yield to maturity on a firm's outstanding debt
+	\item \textbf{Debt-rating approach:} Debt cost of capital = Yield based on similarly rated debt (bonds) with similar maturity
+	\item \textbf{Beta-CAPM approach:} Debt cost of capital = Expected return for debt based on its beta using CAPM
+	\end{itemize}
+
+\item \textbf{Yield-to-maturity approach (YTM):}
+	\begin{itemize}
+		\item \textbf{Definition:} It is the IRR an investor will earn from holding the bond to maturity\footnote{\textbf{Maturity} is a date on which \underline{a financial agreement ends}, triggering the payment of principal with interest or repayment of a loan with interest.} and receiving its promised payments.
+
+	        \item \textbf{The accuracy of the estimate depends on the risk of firm default!}
+			\begin{itemize}
+				\item \textbf{Low risk of firm default:} YTM is a reasonable estimate of investors' expected rate of return.
+				\item \textbf{High risk of firm default:} YTM will overstate investors' expected return.
+			\end{itemize}
+	\end{itemize}
+
+\item \textbf{Beta-CAPM approach:}
+	\begin{itemize}
+		\item Debt betas are difficult to estimate because corporate bonds are traded infrequently.
+	\item One approximation is to use estimates of betas of bond indices by rating category.
+	\end{itemize}
+\end{itemize}
+
+\subsection{A project's cost of capital} % (fold)
+\label{sub:a_project_}
+\begin{itemize}
+  \item \textbf{Should we undertake a given project?}
+	  \begin{itemize}
+	    \item \textbf{Assumptions:}
+		    \begin{itemize}
+		      \item All-equity financing of the project separate from any financing decision
+			      \item Ignoring financing risk
+		    \end{itemize}
+
+\item \textbf{Answer: It depends, especially on project's cost of capital!}
+	\begin{itemize}
+	  \item To calculate project's cost of capital, we need to find a comparable company and estimate the cost of capital of assets as a proxy.
+		  \begin{itemize}
+		    \item All-equity firm comparables (company operating by using its \underline{equity})
+		    \item Levered firm comparables (company operating by taking out \underline{loans})
+		  \end{itemize}
+	\end{itemize}
+	  \end{itemize}
+\item \textbf{All-equity financing: Asset(unlevered) beta}
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+	\beta_U = \beta_E * \frac{E}{E + D} + \beta_D * \frac{D}{E+D}
+	\end{aligned}
+	}
+	\end{equation*}
+	\normalsize
+	
+\item \textbf{Levered firms as comparables: Asset cost of capital / unlevered cost of capital}
+	\begin{itemize}
+	  \item Expected return required by investors to hold firm's underlying assets.
+	\item Weighted average of firm's equity and debt costs of capital
+	\end{itemize}
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+	r_U = r_E * \frac{E}{E + D} + r_D * \frac{D}{E + D}
+	\end{aligned}
+	}
+	\end{equation*}
+	\normalsize
+	
+\end{itemize}
+
+
+% subsection a_project_ (end)
+% subsection debt_of_cost_of_capital (end)	   
+							% subsection equity_of_cost_of_capital (end)
 
 % section cost_of_capital (end)
 % subsection  (end)
