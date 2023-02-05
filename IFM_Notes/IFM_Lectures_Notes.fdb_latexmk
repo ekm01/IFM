@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1675532477 "IFM_Lectures_Notes.xdv" "IFM_Lectures_Notes.pdf" "IFM_Lectures_Notes" 1675532478
-  "IFM_Lectures_Notes.xdv" 1675532477 250056 29325022fc2d4242c331edd9b5d776a5 "xelatex"
+["xdvipdfmx"] 1675595515 "IFM_Lectures_Notes.xdv" "IFM_Lectures_Notes.pdf" "IFM_Lectures_Notes" 1675595515
+  "IFM_Lectures_Notes.xdv" 1675595515 301500 7f89f81e9e755393b8f7472ca612bf34 "xelatex"
   (generated)
   "IFM_Lectures_Notes.pdf"
-["xelatex"] 1675532477 "IFM_Lectures_Notes.tex" "IFM_Lectures_Notes.xdv" "IFM_Lectures_Notes" 1675532478
+["xelatex"] 1675595514 "IFM_Lectures_Notes.tex" "IFM_Lectures_Notes.xdv" "IFM_Lectures_Notes" 1675595515
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1650183167 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1650183167 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -55,8 +55,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1675110641 5825180 8d6a65e830cc74b1ae523389d2670d2d ""
   "FCFearnings.jpg" 1675436488 209124 d34369f71b60ea6410c364827dd52368 ""
-  "IFM_Lectures_Notes.aux" 1675532477 3498 73ae73c675a19455b6ad29e2082037c0 "xelatex"
-  "IFM_Lectures_Notes.tex" 1675532475 41612 4a2f967eb99e029b8a6d61a04b187edf ""
+  "IFM_Lectures_Notes.aux" 1675595515 4447 c459204e21ba500964bc05bcbb387455 "xelatex"
+  "IFM_Lectures_Notes.tex" 1675595513 49207 790f2455be27e6f020f438404f58c19a ""
   "balancesheet.jpg" 1675193899 119804 76eefccd32ad03280a106addf555b8eb ""
   "estimatingbeta.jpg" 1675529031 277963 ad493c457605a86291fb507b8618c276 ""
   "incomestatement.jpg" 1675266192 326378 15246fa2bacb58f5a195041c67e7e412 ""
