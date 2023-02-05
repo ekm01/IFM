@@ -238,4 +238,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT ./estimatingbeta.jpg
 INPUT ./estimatingbeta.jpg
 INPUT estimatingbeta.jpg
+INPUT ./interesttaxshield.jpg
+INPUT ./interesttaxshield.jpg
+INPUT interesttaxshield.jpg
 INPUT IFM_Lectures_Notes.aux

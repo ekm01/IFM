@@ -1263,7 +1263,143 @@ r_E = r_U + \frac{D}{E} * (r_U - r_D)
 	\end{itemize}
 \end{itemize}
 
+\section{Capital Structure and Taxes} % (fold)
+\label{sec:capital_structure_and_taxes}
 
+\subsection{Interest tax deduction} % (fold)
+\label{sub:interest_tax_deduction}
+\begin{itemize}
+  \item \textbf{Intuition:} Corporations pay taxes on their profits after interest payments are deducted. Thus, interest expense reduces amount of corporate taxes.
+\item \textbf{Definition of interest tax shield:} It is the reduction in taxes paid due to the tax deductibility of interest.
+	\item \textbf{Formula of interest tax shield:}
+		\large
+		\begin{equation*}
+		\boxed{
+		\begin{aligned}
+		Interest \; tax \; shield = Corporate \; tax \; rate * Interest \; payments
+		\end{aligned}
+		}
+		\end{equation*}
+		\normalsize
+\end{itemize}
+
+\subsection{Valuing the tax shield} % (fold)
+\label{sub:valuing_the_tax_shield}
+
+\begin{itemize}
+  \item \textbf{Valuation of the interest tax shield:}
+	  \begin{itemize}
+	    \item When a firm uses debt, interest tax shield provides a corporate tax benefit each year.
+	\item This benefit is the computed as the present value of the stream of future interest tax shields the firm will receive.
+	\item The cash flows a levered firm pays to investors will be higher than they would be without leverage by the amount of the interest tax shield:\\ \\
+		\textbf{Cash flows to investors with leverage = Cash flows to investors without leverage + Interest tax shield} 	
+	  \end{itemize}
+
+\pagebreak
+\item \textbf{Valuation of the interest tax shield: Unlevered vs.\ levered firm}
+	\begin{figure}[h!]
+	  \centering
+	  \includegraphics[width=0.8\linewidth]{interesttaxshield.jpg}
+	  \label{fig:interesttaxshield_jpg}
+	\end{figure}
+
+\item \textbf{\underline{MM proposition 1 (with taxes):} The total value of the levered firm exceeds the value of the firm without leverage due to the present value of the tax savings from debt.}
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+	V^L = V^U + PV(Interest \; tax \; shield)
+	\end{aligned}
+	}
+	\end{equation*}
+	\\
+	\normalsize
+	With: \\
+	$V^L$ = Market value of a levered firm, $V^U$ = Market value of an unlevered firm, $PV(Interest \; tax \; shield)$ = Present value of interest tax shield
+
+\item \textbf{The interest tax shield with permanent debt:} Typically, the level of future interest payments is uncertain due to changes in:
+	\begin{itemize}
+	  \item marginal tax rate
+\item amount of debt outstanding
+	\item interest rate on that debt
+	\item risk of the firm
+	\end{itemize}
+For simplicity, we will consider the special case in which the above variables are kept constant.
+
+\item \textbf{The interest tax shield with permanent debt:}
+	\begin{itemize}
+		\item Suppose a firm borrows debt $D$ and keeps the debt permanently. If the firm's marginal tax rate is $t_C$, and if the debt is riskless with a risk-free interest rate $r_f$, then the interest tax shield each year is $t_C * r_f * D$, and the tax shield can be valued as a perpetuity.
+			\large
+			\begin{equation*}
+			\boxed{
+			\begin{aligned}
+		PV(Interest \; tax \; shield) = \frac{t_C * Interest}{r_f} = \frac{t_C * r_f * D}{r_f} = t_C * D	
+			\end{aligned}
+			}
+			\end{equation*}
+			\normalsize
+			
+	\end{itemize}
+
+\item \textbf{WACC with taxes:} With tax-deductible interest, the effective after-tax borrowing rate is $r_D * (1 - t_C)$ and WACC becomes:
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+		r_{WACC} = \frac{E}{E + D} * r_E + \frac{D}{E + D} * r_D * (1 - t_C)
+	\end{aligned}
+	}
+	\end{equation*}
+	\normalsize
+	\large
+	\begin{equation*}
+	\boxed{
+	\begin{aligned}
+r_{WACC} = \underbrace{\frac{E}{E + D} * r_E + \frac{D}{E + D} * r_D}_\text{Pre-tax WACC} - \underbrace{\frac{D}{E + D} * r_D * t_C}_\text{Reduction due to interest tax shield} 
+	\end{aligned}
+	}
+	\end{equation*}
+	\normalsize
+	
+\begin{itemize}
+  \item Pre-tax WACC = The firm's unlevered cost of capital
+	  \begin{itemize}
+	    \item Is constant, reflecting the required return of the firm's investors based on the risk of the firm's assets
+	  \end{itemize}
+\item Effective after-tax WACC = The firm's after-tax cost to the firm
+	\begin{itemize}
+	  \item Declines with leverage as the interest tax shield grows
+	\end{itemize}
+\end{itemize}
+
+\item \textbf{Interest tax shield with a target debt-to-equity ratio:}
+	\begin{itemize}
+	  \item When a firm adjusts its leverage to maintain a target debt-to-equity ratio, we can compute its value with leverage, $V^L$, by discounting its FCF using WACC.
+	\item The value of the interest tax shield can be found by comparing the value of the levered firm, $V^L$, to the unlevered value, $V^U$, of the FCF discounted at the firm's unlevered cost of capital, the pre-tax WACC.
+	\end{itemize}
+\end{itemize}
+
+\subsection{Optimal capital structure} % (fold)
+\label{sub:optimal_level_of_structure}
+
+\begin{itemize}
+  \item \textbf{Optimal level of leverage:} The optimal level of leverage from a tax saving perspective is the level such that interest equals EBIT. At the optimal level of leverage, the firm shield all of its taxable income and it does not have any tax-disadvantage excess interest.
+
+\item \textbf{Limitations to the optimal level of leverage:}
+	\begin{itemize}
+	  \item However, it is unlikely that a firm can predict its future EBIT (and the optimal level of debt) precisely.
+	\item If there is uncertainty regarding EBIT, then there will be a risk that interest will exceed EBIT. As a result, tax savings for high levels of interest falls, possibly reducing the optimal level of the interest payment.
+	\item In general, as a firm's interest expense approaches its expected taxable earnings, marginal tax advantage of debt declines, limiting the amount of debt the firm should use.
+	\end{itemize}
+\end{itemize}
+
+% subsection optimal_level_of_leverage (end)
+
+% subsection valuing_the_tax_shield (end)
+
+% subsection interest_tax_deduction (end)
+
+% section capital_structure_and_taxes (end)
 % subsection capital_structure_fallacies (end)
 % subsection modigliani_miller_2_leverage_and_cost_of_capital (end)
 % subsection modigliani_miller_1_leverage_and_arbitrage (end)
